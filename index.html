@@ -17,9 +17,9 @@
                 },
                 extend: {
                     colors: {
-                        primary: '#ff0033',   /* สีแดง Neon */
-                        secondary: '#0f0f0f', /* สีดำสนิท */
-                        surface: '#1a1a1a',   /* สีพื้นหลังการ์ด */
+                        primary: '#ff0033',   
+                        secondary: '#0f0f0f', 
+                        surface: '#1a1a1a',   
                         accent: '#ff4d6d'
                     },
                     boxShadow: {
@@ -76,7 +76,7 @@
         <div class="container mx-auto px-6 text-center relative z-10">
             <div class="mb-8 relative inline-block group">
                 <div class="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary shadow-neon transition duration-500 group-hover:scale-105 mx-auto relative">
-                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Profile" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500">
+                    <img src="MeAndSushi.jpg" alt="Profile" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500">
                 </div>
             </div>
             <h1 class="font-mono text-4xl md:text-7xl font-bold text-white mb-4 tracking-tighter">
@@ -126,7 +126,11 @@
 
                 <div class="flex flex-col md:flex-row items-center justify-between relative group">
                     <div class="w-full md:w-5/12 text-left md:text-right order-2 md:order-1 pt-4 md:pt-0 pl-12 md:pl-0">
-                        <h3 class="font-mono text-xl font-bold text-primary">KMUTNB</h3>
+                        <h3 class="font-mono text-xl font-bold text-primary hover:text-accent transition">
+                            <a href="https://www.kmutnb.ac.th" target="_blank" title="Visit University Website">
+                                KMUTNB <i class="fas fa-external-link-alt text-sm ml-1"></i>
+                            </a>
+                        </h3>
                         <p class="text-white font-bold">Bachelor's Degree</p>
                         <p class="text-gray-500 text-sm">Computer Technology</p>
                         <span class="inline-block mt-2 px-3 py-1 bg-primary/20 text-primary text-xs font-mono border border-primary/50">CURRENT</span>
@@ -139,7 +143,11 @@
                     <div class="w-full md:w-5/12 order-1 md:order-1"></div>
                     <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-gray-800 border-2 border-gray-600 rounded-full z-10 group-hover:border-white transition duration-300"></div>
                     <div class="w-full md:w-5/12 order-2 md:order-3 pt-4 md:pt-0 pl-12 md:pl-0">
-                        <h3 class="font-mono text-xl font-bold text-white group-hover:text-primary transition">Army Transportation School</h3>
+                        <h3 class="font-mono text-xl font-bold text-white group-hover:text-primary transition">
+                            <a href="http://www.ate.ac.th" target="_blank" title="Visit School Website">
+                                Army Transportation School <i class="fas fa-external-link-alt text-sm ml-1 text-gray-500 group-hover:text-primary"></i>
+                            </a>
+                        </h3>
                         <p class="text-gray-300">Diploma (High Vocational)</p>
                         <p class="text-gray-500 text-sm">Digital Business Technology</p>
                     </div>
@@ -147,7 +155,11 @@
 
                 <div class="flex flex-col md:flex-row items-center justify-between relative group">
                     <div class="w-full md:w-5/12 text-left md:text-right order-2 md:order-1 pt-4 md:pt-0 pl-12 md:pl-0">
-                        <h3 class="font-mono text-xl font-bold text-white group-hover:text-primary transition">Army Transportation School</h3>
+                        <h3 class="font-mono text-xl font-bold text-white group-hover:text-primary transition">
+                            <a href="http://www.ate.ac.th" target="_blank" title="Visit School Website">
+                                Army Transportation School <i class="fas fa-external-link-alt text-sm ml-1 text-gray-500 group-hover:text-primary"></i>
+                            </a>
+                        </h3>
                         <p class="text-gray-300">Vocational Certificate</p>
                         <p class="text-gray-500 text-sm">Automotive Mechanics</p>
                     </div>
@@ -159,7 +171,11 @@
                     <div class="w-full md:w-5/12 order-1 md:order-1"></div>
                     <div class="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-gray-800 border-2 border-gray-600 rounded-full z-10 group-hover:border-white transition duration-300"></div>
                     <div class="w-full md:w-5/12 order-2 md:order-3 pt-4 md:pt-0 pl-12 md:pl-0">
-                        <h3 class="font-mono text-xl font-bold text-white group-hover:text-primary transition">Benjamarachanusorn School</h3>
+                        <h3 class="font-mono text-xl font-bold text-white group-hover:text-primary transition">
+                            <a href="http://www.bs.ac.th" target="_blank" title="Visit School Website">
+                                Benjamarachanusorn School <i class="fas fa-external-link-alt text-sm ml-1 text-gray-500 group-hover:text-primary"></i>
+                            </a>
+                        </h3>
                         <p class="text-gray-300">Junior High School</p>
                     </div>
                 </div>
@@ -174,36 +190,40 @@
                 <span class="border-b-4 border-primary pb-2">Modules & Activities</span>
             </h2>
             <div class="grid md:grid-cols-3 gap-8">
+                
                 <div class="bg-secondary border border-gray-800 hover:border-primary transition duration-300 group overflow-hidden relative">
                     <div class="h-48 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-500">
                     </div>
                     <div class="p-6 relative">
                         <div class="absolute top-0 right-0 bg-primary text-black font-mono text-xs px-2 py-1 font-bold">STUDY</div>
                         <h3 class="font-mono text-xl text-white mb-2 group-hover:text-primary transition">Computer Tech</h3>
-                        <p class="text-gray-400 text-sm">Focusing on hardware architecture, system analysis, and basic programming logic.</p>
+                        <p class="text-gray-400 text-sm">Learning the core of technology: Hardware, Software, Coding, and Computer Structure.</p>
                     </div>
                 </div>
+
                 <div class="bg-secondary border border-gray-800 hover:border-primary transition duration-300 group overflow-hidden relative">
                     <div class="h-48 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-500">
                     </div>
                     <div class="p-6 relative">
                         <div class="absolute top-0 right-0 bg-gray-700 text-white font-mono text-xs px-2 py-1 font-bold">SKILL</div>
-                        <h3 class="font-mono text-xl text-white mb-2 group-hover:text-primary transition">3D Modeling</h3>
-                        <p class="text-gray-400 text-sm">Designing low-poly characters and assets using modern modeling software.</p>
+                        <h3 class="font-mono text-xl text-white mb-2 group-hover:text-primary transition">English</h3>
+                        <p class="text-gray-400 text-sm">Confident in basic English communication. Always practicing to improve technical vocabulary.</p>
                     </div>
                 </div>
+
                 <div class="bg-secondary border border-gray-800 hover:border-primary transition duration-300 group overflow-hidden relative">
                     <div class="h-48 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1520098435281-90c07276a8ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-500">
                     </div>
                     <div class="p-6 relative">
                         <div class="absolute top-0 right-0 bg-gray-700 text-white font-mono text-xs px-2 py-1 font-bold">HOBBY</div>
-                        <h3 class="font-mono text-xl text-white mb-2 group-hover:text-primary transition">Mechanic</h3>
-                        <p class="text-gray-400 text-sm">Applying engineering knowledge to maintain and tune high-performance motorcycles.</p>
+                        <h3 class="font-mono text-xl text-white mb-2 group-hover:text-primary transition">Football & Skate</h3>
+                        <p class="text-gray-400 text-sm">Passionate about sports. I spend my free time playing football to stay fit and skateboarding to challenge my limits.</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -215,22 +235,25 @@
             </h2>
             <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
                 <div class="px-6 py-3 bg-secondary border border-gray-700 text-gray-300 font-mono hover:border-primary hover:text-primary hover:shadow-neon transition cursor-default">
-                    <i class="fas fa-microchip mr-2"></i>IoT Devices
+                    <i class="fas fa-network-wired mr-2"></i>Computer Structure
                 </div>
                 <div class="px-6 py-3 bg-secondary border border-gray-700 text-gray-300 font-mono hover:border-primary hover:text-primary hover:shadow-neon transition cursor-default">
                     <i class="fas fa-code mr-2"></i>Coding
                 </div>
                 <div class="px-6 py-3 bg-secondary border border-gray-700 text-gray-300 font-mono hover:border-primary hover:text-primary hover:shadow-neon transition cursor-default">
+                    <i class="fas fa-cube mr-2"></i>3D Design
+                </div>
+                <div class="px-6 py-3 bg-secondary border border-gray-700 text-gray-300 font-mono hover:border-primary hover:text-primary hover:shadow-neon transition cursor-default">
                     <i class="fas fa-motorcycle mr-2"></i>Motorbikes
                 </div>
                 <div class="px-6 py-3 bg-secondary border border-gray-700 text-gray-300 font-mono hover:border-primary hover:text-primary hover:shadow-neon transition cursor-default">
-                    <i class="fas fa-cube mr-2"></i>3D Design
+                    <i class="fas fa-futbol mr-2"></i>Football
                 </div>
                 <div class="px-6 py-3 bg-secondary border border-gray-700 text-gray-300 font-mono hover:border-primary hover:text-primary hover:shadow-neon transition cursor-default">
                     <i class="fas fa-gamepad mr-2"></i>Gaming
                 </div>
                 <div class="px-6 py-3 bg-secondary border border-gray-700 text-gray-300 font-mono hover:border-primary hover:text-primary hover:shadow-neon transition cursor-default">
-                    <i class="fas fa-futbol mr-2"></i>Football
+                    <i class="fas fa-person-skateboarding mr-2"></i>Skateboard
                 </div>
             </div>
         </div>
@@ -240,16 +263,16 @@
         <div class="container mx-auto px-6 text-center">
             <h3 class="font-mono text-2xl font-bold text-white mb-8 tracking-widest">CONNECT WITH ME</h3>
             <div class="flex justify-center space-x-8 mb-8">
-                <a href="#" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-surface text-gray-400 hover:bg-primary hover:text-white hover:shadow-neon transition duration-300">
+                <a href="https://www.facebook.com/share/184p8JBWKp/" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-surface text-gray-400 hover:bg-primary hover:text-white hover:shadow-neon transition duration-300">
                     <i class="fab fa-facebook-f text-xl"></i>
                 </a>
-                <a href="#" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-surface text-gray-400 hover:bg-primary hover:text-white hover:shadow-neon transition duration-300">
+                <a href="https://www.instagram.com/_.223force?igsh=MW5hbWI5ZDIzNnZsbg==" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-surface text-gray-400 hover:bg-primary hover:text-white hover:shadow-neon transition duration-300">
                     <i class="fab fa-instagram text-xl"></i>
                 </a>
                 <a href="https://github.com/Kittipathin" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-surface text-gray-400 hover:bg-primary hover:text-white hover:shadow-neon transition duration-300">
                     <i class="fab fa-github text-xl"></i>
                 </a>
-                <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full bg-surface text-gray-400 hover:bg-primary hover:text-white hover:shadow-neon transition duration-300">
+                <a href="mailto:s6802041510279@email.kmutnb.ac.th" class="w-12 h-12 flex items-center justify-center rounded-full bg-surface text-gray-400 hover:bg-primary hover:text-white hover:shadow-neon transition duration-300">
                     <i class="fas fa-envelope text-xl"></i>
                 </a>
             </div>
