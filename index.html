@@ -17,9 +17,9 @@
                 },
                 extend: {
                     colors: {
-                        primary: '#ff0033',   
-                        secondary: '#0f0f0f', 
-                        surface: '#1a1a1a',   
+                        primary: '#ff0033',   /* สีแดง Neon */
+                        secondary: '#0f0f0f', /* สีดำสนิท */
+                        surface: '#1a1a1a',   /* สีพื้นหลังการ์ด */
                         accent: '#ff4d6d'
                     },
                     boxShadow: {
@@ -49,6 +49,8 @@
                 <a href="#education" class="font-mono text-sm text-gray-400 hover:text-primary transition uppercase tracking-widest">Education</a>
                 <a href="#activities" class="font-mono text-sm text-gray-400 hover:text-primary transition uppercase tracking-widest">Activities</a>
                 <a href="#interests" class="font-mono text-sm text-gray-400 hover:text-primary transition uppercase tracking-widest">Interests</a>
+                <a href="#contact" class="font-mono text-sm text-gray-400 hover:text-primary transition uppercase tracking-widest">Contact</a>
+                
                 <a href="https://github.com/Kittipathin" target="_blank" class="border border-primary text-primary px-5 py-2 hover:bg-primary hover:text-white transition font-mono text-sm tracking-wider shadow-neon">
                     <i class="fab fa-github mr-2"></i>GITHUB
                 </a>
@@ -66,6 +68,7 @@
                 <a href="#education" class="mobile-link text-gray-400 hover:text-primary font-mono uppercase">Education</a>
                 <a href="#activities" class="mobile-link text-gray-400 hover:text-primary font-mono uppercase">Activities</a>
                 <a href="#interests" class="mobile-link text-gray-400 hover:text-primary font-mono uppercase">Interests</a>
+                <a href="#contact" class="mobile-link text-gray-400 hover:text-primary font-mono uppercase">Contact</a>
             </div>
         </div>
     </nav>
@@ -214,20 +217,19 @@
                 </div>
 
                 <div class="bg-secondary border border-gray-800 hover:border-primary transition duration-300 group overflow-hidden relative">
-    <div class="h-48 overflow-hidden relative">
-        <div class="absolute inset-0 bg-primary/20 mix-blend-overlay z-10 opacity-0 group-hover:opacity-100 transition duration-500"></div>
-        
-        <img src="NeymarS2.gif" alt="Neymar Jr" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-500">
-    </div>
-    <div class="p-6 relative">
-        <div class="absolute top-0 right-0 bg-primary/80 text-white font-mono text-xs px-2 py-1 font-bold shadow-neon">PASSION</div>
-        <h3 class="font-mono text-xl text-white mb-2 group-hover:text-primary transition font-bold tracking-wider">THE BEAUTIFUL GAME</h3>
-        <p class="text-gray-400 text-sm leading-relaxed">
-            Inspired by the artistry of players like <span class="text-primary font-semibold">Neymar Jr.</span> 
-            Football is not just a hobby; it's creativity, flair, and the joy of movement.
-        </p>
-    </div>
-</div>
+                    <div class="h-48 overflow-hidden relative">
+                        <div class="absolute inset-0 bg-primary/20 mix-blend-overlay z-10 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                        <img src="NeymarS2.gif" alt="Neymar Jr" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6 relative">
+                        <div class="absolute top-0 right-0 bg-primary/80 text-white font-mono text-xs px-2 py-1 font-bold shadow-neon">PASSION</div>
+                        <h3 class="font-mono text-xl text-white mb-2 group-hover:text-primary transition font-bold tracking-wider">THE BEAUTIFUL GAME</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            Inspired by the artistry of players like <span class="text-primary font-semibold">Neymar Jr.</span> 
+                            Football is not just a hobby; it's creativity, flair, and the joy of movement.
+                        </p>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -260,6 +262,48 @@
                 <div class="px-6 py-3 bg-secondary border border-gray-700 text-gray-300 font-mono hover:border-primary hover:text-primary hover:shadow-neon transition cursor-default">
                     <i class="fas fa-person-skateboarding mr-2"></i>Skateboard
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-surface relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] z-0 pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <h2 class="font-mono text-3xl md:text-4xl font-bold text-center mb-16 text-white uppercase tracking-widest">
+                <span class="border-b-4 border-primary pb-2">Initiate Contact</span>
+            </h2>
+
+            <div class="max-w-3xl mx-auto bg-secondary p-8 md:p-12 border border-gray-800 shadow-2xl relative group overflow-hidden">
+                <div class="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-primary transition-all duration-500 group-hover:w-16 group-hover:h-16 opacity-50 group-hover:opacity-100"></div>
+                <div class="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-primary transition-all duration-500 group-hover:w-16 group-hover:h-16 opacity-50 group-hover:opacity-100"></div>
+                <div class="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-primary transition-all duration-500 group-hover:w-16 group-hover:h-16 opacity-50 group-hover:opacity-100"></div>
+                <div class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-primary transition-all duration-500 group-hover:w-16 group-hover:h-16 opacity-50 group-hover:opacity-100"></div>
+
+                <form action="#" onsubmit="return false;" class="space-y-6 relative z-10">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="relative group/input">
+                            <i class="fas fa-user absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 transition group-focus-within/input:text-primary"></i>
+                            <input type="text" placeholder="CODENAME (Name)" class="w-full bg-surface border border-gray-700 p-4 pl-12 text-white font-mono focus:outline-none focus:border-primary focus:shadow-neon transition duration-300 placeholder-gray-500">
+                        </div>
+                        <div class="relative group/input">
+                            <i class="fas fa-envelope absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 transition group-focus-within/input:text-primary"></i>
+                            <input type="email" placeholder="DIGITAL MAIL (Email)" class="w-full bg-surface border border-gray-700 p-4 pl-12 text-white font-mono focus:outline-none focus:border-primary focus:shadow-neon transition duration-300 placeholder-gray-500">
+                        </div>
+                    </div>
+                    <div class="relative group/input">
+                        <i class="fas fa-comment-alt absolute left-4 top-6 text-gray-500 transition group-focus-within/input:text-primary"></i>
+                        <textarea rows="5" placeholder="TRANSMISSION DATA (Message)" class="w-full bg-surface border border-gray-700 p-4 pl-12 text-white font-mono resize-none focus:outline-none focus:border-primary focus:shadow-neon transition duration-300 placeholder-gray-500 font-sans"></textarea>
+                    </div>
+
+                    <div class="text-center pt-4">
+                        <button type="submit" class="bg-primary text-black font-mono font-bold text-lg px-12 py-4 hover:bg-white hover:text-primary transition duration-300 shadow-neon hover:shadow-neon-hover clip-path-polygon group relative overflow-hidden">
+                            <span class="relative z-10 flex items-center justify-center tracking-widest">
+                                SEND TRANSMISSION <i class="fas fa-paper-plane ml-3 group-hover:translate-x-2 transition-transform duration-300"></i>
+                            </span>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
